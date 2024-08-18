@@ -15,24 +15,23 @@ Python Keylogger : A Python-based keylogger for capturing and logging keystrokes
    git clone https://github.com/Aziz-Rahmouni/Keylogger-Project.gitents.txt
 
 2. **Navigate to the Directory:**
-  -cd Keylogger-Project
+   cd Keylogger-Project
    
 4. **Install Dependencies:** 
-  -pynput
-  -keyboard
+   pynput/keyboard
 
 5. **Create a credentials.txt File:**
-  -Create a file named credentials.txt in the project directory. Format it as follows:
-   EMAIL_ADDRESS=your-email@example.com
-   EMAIL_PASSWORD=your-email-password
+   Create a file named credentials.txt in the project directory. Format it as follows:
+   1. EMAIL_ADDRESS=your-email@example.com
+   2. EMAIL_PASSWORD=your-email-password
 
 ## Usage
 1. **Run the Keylogger:**
-  -python keylogger.py
+python keylogger.py
 
 3. **Configuration:**
-  -Modify credentials.txt with your email details.
-  -Adjust the SEND_REPORT_EVERY variable in the script to change the reporting interval.
+   1. Modify credentials.txt with your email details.
+   2. Adjust the SEND_REPORT_EVERY variable in the script to change the reporting interval.
 
 ## Disclaimer
 This tool is provided for educational purposes to illustrate keylogging techniques. Ensure you have proper authorization before using it on any system. Unauthorized use is illegal and unethical.
