@@ -24,10 +24,8 @@ Python Keylogger : A Python-based keylogger for capturing and logging keystrokes
 
 
 
-5. **Create a credentials.txt File:**
-   Create a file named credentials.txt in the project directory. Format it as follows:
-   1. EMAIL_ADDRESS=your-email@example.com
-   2. EMAIL_PASSWORD=your-email-password
+5. **credentials.txt File:**
+   Replace "your-email@example.com" and "your-email-password" with your own email address and password.
 
 ## Usage
 1. **Run the Keylogger:**
