@@ -18,7 +18,11 @@ Python Keylogger : A Python-based keylogger for capturing and logging keystrokes
    cd Keylogger-Project
    
 4. **Install Dependencies:** 
-   pynput/keyboard
+   1. pynput/keyboard.
+   2. Then, install the dependencies using: pip install -r requirements.txt
+
+
+
 
 5. **Create a credentials.txt File:**
    Create a file named credentials.txt in the project directory. Format it as follows:
